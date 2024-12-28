@@ -8,9 +8,20 @@ class App extends Component {
 
   render() {
     const {showClock} = this.state
+    onToggleClock = () => {
+      this.setState(prevState => {
+        const {showClock} = prevState
+        return {showClock: !showClock}
+      })
+    }
+
     return (
       <div className="app-container">
-        <button type="button" className="toggle-button">
+        <button
+          type="button"
+          className="toggle-button"
+          onClick={this.onToggleClock}
+        >
           {showClock ? 'Hide Clock' : 'Show Clock'}
         </button>
         <Clock />
