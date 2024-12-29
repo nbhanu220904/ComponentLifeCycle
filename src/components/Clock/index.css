@@ -16,9 +16,16 @@
   font-weight: 400;
 }
 
+.date {
+  color: white;
+  font-size: 30px;
+  margin: 20px;
+  font-family: 'Roboto';
+}
+
 .time {
   color: white;
-  font-size: 60px;
+  font-size: 50px;
   margin: 20px;
   font-family: 'Roboto';
 }
