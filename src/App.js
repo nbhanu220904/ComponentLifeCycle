@@ -6,6 +6,7 @@ import './App.css'
 class App extends Component {
   state = {showClock: false}
 
+<<<<<<< HEAD
   render() {
     const {showClock} = this.state
     onToggleClock = () => {
@@ -14,6 +15,17 @@ class App extends Component {
         return {showClock: !showClock}
       })
     }
+=======
+  onToggleClock = () => {
+    this.setState(prevState => {
+      const {showClock} = prevState
+      return {showClock: !showClock}
+    })
+  }
+
+  render() {
+    const {showClock} = this.state
+>>>>>>> Fourth Commit
 
     return (
       <div className="app-container">

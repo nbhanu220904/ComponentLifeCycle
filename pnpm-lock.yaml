@@ -8,7 +8,10 @@ specifiers:
   eslint-config-airbnb: 18.2.1
   eslint-config-prettier: 8.1.0
   eslint-plugin-prettier: 3.3.1
+<<<<<<< HEAD
   git: 0.1.5
+=======
+>>>>>>> Fourth Commit
   husky: 4.3.8
   lint-staged: 10.5.4
   npm-run-all: 4.1.5
@@ -22,7 +25,10 @@ dependencies:
   '@testing-library/react': 11.2.5_react-dom@17.0.1+react@17.0.1
   '@testing-library/user-event': 12.6.2
   chalk: 4.1.0
+<<<<<<< HEAD
   git: 0.1.5
+=======
+>>>>>>> Fourth Commit
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
 
@@ -5554,6 +5560,7 @@ packages:
       assert-plus: 1.0.0
     dev: true
 
+<<<<<<< HEAD
   /git/0.1.5:
     resolution: {integrity: sha512-N+bfOrXyKMU/fQtCj6D/U9MQOEN0DAA8TLHSLdUQRSWBOkeRvsjJHdrdkvcq05xO7GSDKWc3nDEGoTZ4DfCCSg==}
     engines: {node: '>=0.4.0'}
@@ -5561,6 +5568,8 @@ packages:
       mime: 1.2.9
     dev: false
 
+=======
+>>>>>>> Fourth Commit
   /glob-parent/3.1.0:
     resolution: {integrity: sha1-nmr2KZ2NO9K9QEMIMr0RPfkGxa4=}
     dependencies:
@@ -7630,10 +7639,13 @@ packages:
       mime-db: 1.46.0
     dev: true
 
+<<<<<<< HEAD
   /mime/1.2.9:
     resolution: {integrity: sha512-WiLgbHTIq5AYUvU/Luli4mZ1bUcHpGNHyCsbl+KPMg4zt+XUDpQehWjuBjdLaEvDTinvKj/FgfQt3fPoT7j08g==}
     dev: false
 
+=======
+>>>>>>> Fourth Commit
   /mime/1.6.0:
     resolution: {integrity: sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==}
     engines: {node: '>=4'}
