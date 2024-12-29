@@ -25,7 +25,7 @@ class App extends Component {
         >
           {showClock ? 'Hide Clock' : 'Show Clock'}
         </button>
-        <Clock />
+        {showClock && <Clock />}
       </div>
     )
   }
